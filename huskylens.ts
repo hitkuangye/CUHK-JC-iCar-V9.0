@@ -134,7 +134,7 @@ enum protocolAlgorithm {
 
 
 //% weight=100  color=#e7660b icon="\uf083"  block="CUHK_JC_iCar_HuskyLens"
-namespace huskylens {
+namespace CUHK_JC_iCar_HuskyLens {
     let protocolPtr: number[][] = [[0], [0], [0], [0], [0], [0], [0], [0], [0], [0]]
     let Protocol_t: number[] = [0, 0, 0, 0, 0, 0]
     let i = 1;
@@ -1017,7 +1017,7 @@ namespace huskylens {
 }
 
 //% color=#009b5b icon="\uf1eb" block="CUHK_JC_iCar_WIFI"
-namespace ESP8266ThingSpeak {
+namespace CUHK_JC_iCar_WIFI {
 
     let wifi_connected: boolean = false
     let thingspeak_connected: boolean = false
